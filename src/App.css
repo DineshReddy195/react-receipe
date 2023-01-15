@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&family=Mulish:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,800;1,600&display=swap");
+.App {
+  margin: 0%;
+  min-height: 100vh;
+  background-color: rgb(212, 212, 212);
+}
+.heading {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: x-large;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: black;
+}
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+.form {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  gap: 15px;
+}
+.text {
+  width: 80vh;
+  height: 6vh;
+  border-radius: 40px;
+  border: none;
+  padding-left: 20px;
+  font-size: medium;
+  font-weight: 600;
+  outline: none;
+}
+.button {
+  width: 15vh;
+  height: 6vh;
+  border-radius: 25px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: large;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(18, 18, 245);
+  color: white;
+}
+.tagline-main {
+  display: flex;
+  justify-content: center;
+}
+.tagline {
+  font-family: "Kanit", sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+}
